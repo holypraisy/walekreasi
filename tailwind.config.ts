@@ -8,10 +8,26 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens:{
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
       },
+      colors: {
+        main_color: "#3c3633",
+        secondary_color: "#f59a10",
+        bg_color: "#EEEDEB",
+        lightText: "#FFFFFF",
+      },
+      fontFamily: {
+        bodyFont: ["Poppins", "sans-serif"],
+      },
+
     },
   },
   plugins: [],

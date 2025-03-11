@@ -23,6 +23,7 @@ export default {
         secondary_color: "#f59a10",
         bg_color: "#EEEDEB",
         lightText: "#FFFFFF",
+        brownText: "8C5A2B"
       },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
